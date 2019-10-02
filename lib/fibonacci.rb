@@ -19,6 +19,8 @@ def fibonacci(number)
     fib_number
 end
 
+
+private
 FIB_NUMBERS = Hash.new
 
 def add_fib_number(number, fib_number)
