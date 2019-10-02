@@ -14,4 +14,8 @@ describe '#fibonacci' do
     it 'returns 5 for an input of 5' do
         expect(fibonacci(5)).to eq(5)
     end
+
+    it 'returns 12586269025 for an input of 50 and does not take ages' do
+        expect(fibonacci(50)).to eq(12586269025)
+    end
 end
